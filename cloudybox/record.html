@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>CloudyBox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your page description here" />
+  <meta name="author" content="" />
+
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <!-- <link href="css/bootstrap-responsive.css" rel="stylesheet" /> -->
+  <!-- <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/prettyPhoto.css" rel="stylesheet" />
+  <link href="css/camera.css" rel="stylesheet" />
+  <link href="css/jquery.bxslider.css" rel="stylesheet" /> -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="color/default.css" rel="stylesheet" />
+  <link rel=" icon" href="/img/icon32.png" />
+
+  <!-- <link rel="shortcut icon" href="ico/favicon.png" /> -->
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <!-- start header -->
+    <header>
+      <div class="top">
+        <div class="container">
+          <div class="row">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row nomargin">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo2.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li>
+                      <a href="index.html">Home </a>
+                    </li>
+
+                    <li class="active">
+                      <a href="contact.html">Record </a>
+                    </li>
+
+                    <li>
+                      <a href="post.html">API </a>
+                    </li>
+
+
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <section>
+      <br />
+      <div class="text-center" id="controls">
+    	 <button id="recordButton" class="btn btn-danger">Record</button>
+    	 <button id="pauseButton"class="btn btn-default" disabled>Pause</button>
+    	 <button id="stopButton"class="btn btn-default" disabled>Stop</button>
+      </div>
+
+      <div class="text-center" id="formats"></div><br />
+    	<ol class="text-center" id="recordingsList"></ol>
+
+      <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+    	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+      <script src="js/app.js"></script>
+    </section>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+          </div>
+          <div class="span4">
+            <div class="text-center" class="widget">
+              <address>
+							<strong><img src="/img/logo2.png" alt=" Logo Photo"></strong><br>
+						</address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- javascript ================================================== -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+
+</body>
+</html>

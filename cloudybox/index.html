@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>CloudyBox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your page description here" />
+  <meta name="author" content="" />
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <!-- <link href="css/bootstrap-responsive.css" rel="stylesheet" /> -->
+  <!-- <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/prettyPhoto.css" rel="stylesheet" />
+  <link href="css/camera.css" rel="stylesheet" />
+  <link href="css/jquery.bxslider.css" rel="stylesheet" /> -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="color/default.css" rel="stylesheet" />
+
+  <link rel=" icon" href="/img/icon32.png" />
+  
+
+</head>
+
+<body>
+  <script src="js/cloudybox_firebase.js"></script>
+
+
+  <div id="wrapper">
+
+    <!-- start header -->
+    <header>
+      <div class="top">
+        <div class="container">
+          <div class="row">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row nomargin">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo2.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li class="active">
+                      <a href="index.html">Home </a>
+                    </li>
+
+                    <li>
+                      <a href="record.html">Record </a>
+                    </li>
+
+                    <li>
+                      <a href="post.html">API </a>
+                    </li>
+
+
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <section>
+
+      <table  class="table table-striped">
+        <thead>
+          <tr>
+            <th>Flight Number</th>
+            <th>Plane Model</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Current Time</th>
+            <th>Number Of Passengers</th>
+            <th>Altitude</th>
+            <th>Ground Speed</th>
+          </tr>
+        </thead>
+        <tbody id ="table">
+          <!-- <tr>
+
+            <td id="vFlightNumber"></td>
+            <td id="vPlaneModel"></td>
+            <td id="vDeparture"></td>
+            <td id="vArrival"></td>
+            <td id="vCurrentTime"></td>
+            <td id="vNumberOfPassengers"></td>
+            <td id="vAltitude"></td>
+            <td id="vGroundSpeed"></td>
+
+          </tr> -->
+        </tbody>
+      </table>
+</section>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+          </div>
+          <div class="span4">
+            <div class="text-center" class="widget">
+              <address>
+                <img src="/img/logo2.png" alt=" Logo Photo">
+							<strong></strong><br>
+						</address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- javascript ================================================== -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+
+</body>
+</html>
